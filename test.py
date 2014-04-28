@@ -17,13 +17,13 @@ else:
     docutils_is_available = True
 
 
-def trim_mystrings(mystrings):
+def trim_strings(strings):
     """
     Uniformly trims leading/trailing whitespace from docstrings.
 
     Based on http://www.python.org/peps/pep-0257.html#handling-docstring-indentation
     """
-    if not string or not string.strip():
+    if not strings or not strings.strip():
         return ''
     # Convert tabs to spaces and split into lines
     lines = docstring.expandtabs().splitlines()
