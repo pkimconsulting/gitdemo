@@ -18,7 +18,7 @@ except ImportError:
 else:
     docutils_is_available = True
 
-
+5
 def trim_mystrings(mystrings):
     """
     Uniformly trims leading/trailing whitespace from docstrings.
